@@ -40,10 +40,36 @@ $enable-shadows: true;
 $body-bg: #FFFAFF;
 $border-radius: .4rem;
 
+$light:#FFF2FF;
 
 $theme-colors: (
-  primary: #2F043F
+  primary: #2F043F,
+  light: $light
 );
+
+.text-light{
+  color: $light;
+}
+
+@font-face {
+  font-family: 'aileronregular';
+  src: url('Aileron-Regular-webfont.eot');
+  src: url('Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Aileron-Regular-webfont.woff2') format('woff2'),
+       url('Aileron-Regular-webfont.woff') format('woff'),
+       url('Aileron-Regular-webfont.ttf') format('truetype'),
+       url('Aileron-Regular-webfont.svg#aileronregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+$font-family-sans-serif: "aileronregular";
+$headings-font-family: 'Bitter';
+
+body {
+  font-family: 'aileronregular' !important;
+}
 
 // @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot"; // Required
