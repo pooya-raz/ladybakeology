@@ -41,6 +41,7 @@ $body-bg: #FFFAFF;
 $border-radius: .4rem;
 
 $light:#FFF2FF;
+$fancy-link:#660A42;
 
 $theme-colors: (
   primary: #2F043F,
@@ -49,6 +50,10 @@ $theme-colors: (
 
 .text-light{
   color: $light;
+}
+
+.fancy-link{
+  color:$fancy-link,
 }
 
 @font-face {
