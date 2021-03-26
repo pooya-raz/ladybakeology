@@ -71,6 +71,11 @@ body {
   font-family: 'aileronregular' !important;
 }
 
+img.cake-bake{
+  max-width:400px;
+  height:auto;
+}
+
 // @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot"; // Required
 @import "bootstrap/scss/type";
