@@ -71,9 +71,20 @@ $theme-colors: (
 
 }
 
+@font-face {
+  font-family: 'GoodVibrations';
+  src: url('GoodVibrations Script.ttf');
+}
+
 $font-family-sans-serif: "aileronregular";
 $headings-font-family: 'Bitter';
-
+.navbar-brand { 
+  font-family:GoodVibrations !important; 
+  color:#331F33;
+}
+.navbar {
+  color:#331F33;
+}
 body {
   font-family: 'aileronregular' !important;
 }
