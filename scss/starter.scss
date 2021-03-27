@@ -78,9 +78,11 @@ $theme-colors: (
 
 $font-family-sans-serif: "aileronregular";
 $headings-font-family: 'Bitter';
-.navbar-brand { 
+.navbar-lady { 
   font-family:GoodVibrations !important; 
   color:#331F33;
+  text-align: center;
+  font-size:2rem;
 }
 .navbar {
   color:#331F33;
