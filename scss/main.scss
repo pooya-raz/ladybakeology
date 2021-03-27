@@ -78,6 +78,7 @@ $theme-colors: (
 
 $font-family-sans-serif: "aileronregular";
 $headings-font-family: 'Bitter';
+
 .navbar-lady { 
   font-family:GoodVibrations !important; 
   color:#331F33;
@@ -94,10 +95,6 @@ body {
 img.cake-bake{
   max-width:400px;
   height:auto;
-}
-
-.spacer{
-  height:100px,
 }
 
 // @import "bootstrap/scss/root";
